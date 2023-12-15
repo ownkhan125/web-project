@@ -1,0 +1,13 @@
+@media screen and (max-width: 992px) {
+    .row-3 ul {margin: 10px 0;}
+    .row2-inner img {width: 100%;}
+    .row1 .navbar-expand-lg .navbar-nav .row-ul-a {padding: 20px 25px;}
+} 
+@media screen and (max-width: 768px) {
+    .inner-coln-row3 {margin: 0;}
+}
+@media screen and (max-width: 576px) {
+    .row-3 h2 {text-align: center; display: block;}
+    .slide-righttoleft {width: 100%;}
+    .inner-coln-row1 {justify-content: center;}
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>popup</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css.min">
+	<style type="text/css">
+		
+
+*{
+		margin:auto;
+ 		padding: 0;
+ 		list-style: none;
+ 		border:none;
+ 		outline: none;
+	}
+		.header{
+			
+			width: 100%;
+			align-items: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			background-color: rgb(29 155 240);
+		}
+		.work{
+			width: 990px;
+			border::1px solid green;
+			
+		}
+		.work h1{
+			
+			color:white;
+			font-family: arial black;
+			display: inline-block;
+
+		}
+		.work h3{
+			color: white;
+			
+		}
+		.left{
+			display: inline-block;
+		}
+		.right{
+			float: right;
+			font-family: arial black;
+			font-style: bold;
+			padding: 10px 5px 5px 5px;
+
+
+		}
+		.right .login{
+			border:0.5px solid white;
+			text-align: center;
+			padding:10px 10px 10px 10px; 
+			display: inline-block;
+			margin-right: 5px;
+			background-color: rgb(29 155 240);
+			color: white;
+			border-radius: 30px;
+			cursor: pointer;
+
+		}
+		.right .sign{
+			float:right;
+			border:1px solid white;
+			text-align: center;
+			padding:10px 10px 10px 10px; 
+			border-radius: 30px;
+			background-color: white;
+			color:black;
+			cursor: pointer;
+
+		}
+		.popup{
+			border-radius: 30px;
+			height: auto;
+			width: 650px;
+			align-content: center;
+			border:0.5px solid grey;
+
+		}
+		  .popup{
+                    
+                    margin:-780px 50px 50px 450px;
+                    top:0;
+                    height:auto;
+                    
+                    transform:translate(-50px,-50px)scale(0.1);
+                    width:650px;
+                    border-radius:30px;
+                    
+                    visibility:none;
+                    transition: transform 0.4s, margin-top 0.4s;
+                    align-content: center;
+					border:0.5px solid grey;
+
+            }
+             .open-popup {
+                visibility:visible;
+                margin-top:-405px;
+                transform:translate(0px,635px)scale(1);
+                background-color: white;
+
+            }
+
+		.center{
+			height: auto;
+			width: 350px;
+			
+			text-align: center;
+			margin-top: 20px;
+			font-family: arial black;
+		}
+		.center img{
+			height: 70px;
+		}
+		.center .create{
+			background-color: black;
+			color:white;
+			font-family: arial black;
+			border-radius: 30px;
+			width: 250px;
+			margin-top: 40px;
+			padding: 5px 5px 5px 5px;
+			cursor: pointer;
+
+
+		}
+		.center p{
+			margin-top: 130px;
+			margin-bottom: 60px;
+		}
+
+
+
+			.popup1{
+			border-radius: 30px;
+			height: auto;
+			width: 650px;
+			align-content: center;
+			border:0.5px solid grey;
+		}
+		  .popup1{
+                    
+                    margin:-780px 50px 50px 450px;
+                    top:0;
+                    height:auto;
+                    
+                    transform:translate(-50px,-50px)scale(0.1);
+                    width:650px;
+                    border-radius:30px;
+                    
+                    visibility:none;
+                    transition: transform 0.4s, margin-top 0.4s;
+                    align-content: center;
+					border:0.5px solid grey;
+
+            }
+             .open-popup {
+                visibility:visible;
+                margin-top:-550px;
+                transform:translate(0px,790px)scale(1);
+                background-color: white;
+
+            }
+
+		.center1{
+			height: auto;
+			width: 350px;
+			
+			text-align: center;
+			margin-top: 20px;
+			font-family: arial black;
+		}
+		.center1 img{
+			height: 70px;
+		}
+		.center1 .create1{
+			background-color: black;
+			color:white;
+			font-family: arial black;
+			border-radius: 30px;
+			width: 250px;
+			margin-top: 40px;
+			padding: 5px 5px 5px 5px;
+			cursor: pointer;
+
+
+		}
+		.center1 input{
+			color: black;
+			border-radius: 10px;
+			border: 0.1px solid grey;
+			height: 55px;
+			width: 300px;
+			font-size: 19px;
+			padding: 4px 4px 4px 4px;
+			margin-top: 100px;
+
+		}
+		.center1 p{
+			margin: 20px 10px 15px 10px;
+		}
+		
+		
+
+
+	</style>
+
+</head>
+
+
+
+
+<body>
+	<div class="header">
+	<div class="work">
+	<div class="left">
+	<h1>Don’t miss what’s happening</h1>
+
+		<h3>People on Twitter are the first to know.</h3></div>
+
+
+
+		<div class="right">
+			<div class="login" onclick="openPopup1()"> Log in</div>
+			<div class="sign" onclick="openPopup()">Sign up</div>
+		 </div>
+
+		</div>
+
+
+
+
+	</div>
+
+	<div class="popup" id="popup">
+
+		<div class="center">
+			<img src="t1.jpg">
+		<h1>Join Twitter today</h1>
+
+
+			<div class="create">Create account</div>
+
+
+
+			<p>By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use.</p>
+			<p1>Have an account already?<a href="" onclick="openPopup1()">Log in</a></p1>
+			</div>
+			
+
+	</div>
+
+
+
+
+
+	<div class="popup1" id="popup1">
+
+		<div class="center1">
+			<img src="t1.jpg">
+		<h1>Sign in to Twitter</h1>
+
+			<input type="text" name="text" placeholder="Phone,Email, or Username">
+			<div class="create1">Next</div>
+
+			<div class="create1">Forgot Password</div>
+
+
+			
+			<p>Don't have an account?<a href="" onclick="openPopup()">Sign up</a></p>
+			</div>
+
+	</div>
+
+
+<script type="text/javascript">
+
+
+	let popup = document.getElementById("popup");
+	let popup1= document.getElementById("popup1");
+
+                function openPopup(){
+                    popup.classList.add("open-popup");
+
+                }
+                function openPopup1(){
+                    popup1.classList.add("open-popup");
+
+                }
+                function closePopup(){
+                    popup.classList.remove("open-popup");
+
+                }
+                function closePopup1(){
+                    popup1.classList.remove("open-popup");
+
+                }
+	
+	
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,454 @@
+@import url("http://fonts.cdnfonts.com/css/itc-avant-garde-pro-md");
+
+html {
+  font-family: ITC Avant Garde Pro Md;
+}
+.row1 {
+  background-color: #eaeaea;
+}
+
+.row1 .navbar-expand-lg .navbar-nav .row-ul-a {
+  padding: 35px 25px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 20px;
+}
+
+.row1 .navbar-expand-lg .navbar-nav .row-ul-a:hover {
+  background-color: #00aeef;
+}
+
+.row1 .row1-inner {
+  background-color: #1f1f1f;
+  /* padding: 0; */
+}
+
+.row2,
+.services-row1,
+.contact-row1 {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00adee+0,005c7e+100 */
+  background: rgb(0, 173, 238);
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 173, 238, 1) 0%,
+    rgba(0, 92, 126, 1) 100%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 173, 238, 1) 0%,
+    rgba(0, 92, 126, 1) 100%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 173, 238, 1) 0%,
+    rgba(0, 92, 126, 1) 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#005c7e', GradientType=0);
+  /* IE6-9 */
+}
+
+.row2-inner {
+  padding: 70px 0;
+}
+
+.row2 .caption {
+  left: 0;
+  bottom: 12%;
+  padding: 0;
+  text-align: left;
+}
+
+.row2 .caption h1,
+.services-row1 h1,
+.contact-row1 h1 {
+  font-family: Oswald;
+  font-size: 55px;
+  text-shadow: 5px 3px 5px #000;
+  color: #fff;
+}
+
+.row2 .caption h3,
+.services-row1 p,
+.contact-row1 p {
+  font-size: 36px;
+  font-family: "ITC Avant Garde Pro Md", sans-serif;
+  text-shadow: 5px 3px 5px #000;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.row2 .caption p {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.row2 .caption a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 18px;
+  padding: 10px 28px;
+  background-color: #0083b5;
+  border-radius: 7px;
+  box-shadow: 0 5px 5px 0 #000;
+  letter-spacing: 1px;
+}
+
+.row-3 {
+  background-color: #eaeaea;
+}
+
+.row-3 h2 {
+  display: inline-block;
+  font-family: Oswald;
+  font-size: 20px;
+  color: #00597a;
+  margin: 0;
+}
+
+.row-3 marquee {
+  font-family: Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9c9c9c;
+  margin: 0;
+}
+
+.row-3 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.row-3 ul li {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.row-3 a {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  text-decoration: none;
+  color: #fff;
+}
+
+.row-3 a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  background-color: #00aeef;
+  z-index: -1;
+}
+
+.row3-inner {
+  padding: 15px 0;
+}
+.row-4 h2 {
+  margin: 0 0 0 5px;
+}
+.row-4 h2,
+.row-4 .first-word {
+  font-family: Oswald;
+  font-size: 29px;
+  color: #333333;
+  font-weight: bold;
+}
+.inner-coln-row1 {
+  background-color: #f1f1f1;
+}
+.row-4 span {
+  color: #333333;
+  font-size: 38px;
+}
+.row-4 i {
+  font-size: 30px;
+}
+.row-4 .first-word {
+  color: #00aeef;
+}
+.inner-coln-row2 {
+  margin-left: 7px;
+}
+.row-4 .inner-coln-row2 p {
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 20px;
+  color: #686868;
+}
+.row-4 .coln-inner {
+  background-color: #e1e1e1;
+  border: 3px solid #bfbdbd;
+  margin-top: 24px;
+}
+.row-4 .coln-inner:hover {
+  background-color: #00aeef;
+}
+.row-4 .coln-inner:hover .inner-coln-row1 {
+  background-color: #ffffff;
+}
+.row-4 .coln-inner:hover p {
+  color: #fff;
+}
+.row-4 .coln-inner:hover a {
+  background-color: #0083b5;
+  color: #fff;
+  box-shadow: 0 5px 0 #00476e;
+}
+.inner-coln-row3 {
+  margin-right: 5px;
+}
+.inner-coln-row3 img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -17px;
+  right: 0;
+  margin-bottom: 7px;
+}
+.inner-coln-row3 a {
+  display: block;
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 13px;
+  color: #333333;
+  padding: 10px 17px;
+  text-align: center;
+  background-color: #bfbdbd;
+  border-radius: 3px;
+  box-shadow: 0 5px 0 #898989;
+  font-weight: bold;
+}
+
+.row-5 h2 {
+  font-family: Oswald;
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 5px 3px 5px #000;
+  margin: 0;
+}
+.row-5 {
+  padding: 35px 0;
+}
+.row5-wrapper {
+  background-color: #00aeef;
+  margin-top: 42px;
+}
+.row-5 .email {
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #949494;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,cecece+100 */
+  background: rgb(255, 255, 255); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(206, 206, 206, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(206, 206, 206, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(206, 206, 206, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cecece',GradientType=0 ); /* IE6-9 */
+}
+.row-5 .email .input-inner {
+  height: 52px;
+}
+.row-5 .email .input-inner input {
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.row-5 input::placeholder {
+  font-family: Arial;
+  font-size: 18px;
+  color: #a3a3a3;
+  font-style: italic;
+}
+.row-5 .email .arrow {
+  justify-content: center;
+}
+.footer {
+  background-color: #333333;
+  padding: 28px 0;
+}
+footer p,
+footer a {
+  font-family: Arial;
+  font-size: 12px;
+  font-style: italic;
+  color: #fff;
+  margin: 0;
+}
+footer p span {
+  margin-right: 5px;
+}
+footer a {
+  display: inline-block;
+  text-decoration: none;
+}
+footer a:nth-child(2) {
+  border-left: 1px solid #fff;
+  padding-left: 17px;
+  margin-left: 15px;
+}
+button.navbar-toggler.bg-color {
+  background-color: #00aeef;
+}
+
+.services-row1,
+.contact-row1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 11px;
+}
+.services-row2 {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.main-services,
+.service-info,
+.Support,
+.contact-details-inner {
+  border: 1px solid #c2c2c2;
+}
+.main-services > h2,
+.contact-details h2 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: lighter;
+  background-color: #00a4e2;
+  line-height: 42px;
+  padding-left: 12px;
+  text-transform: uppercase;
+}
+.main-services ul {
+  padding: 0;
+  margin: 0 0 30px 0;
+  list-style: none;
+  transition: all 0.4;
+}
+.main-services ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  line-height: 42px;
+  margin-left: 10px;
+  padding-left: 24px;
+  display: block;
+  background: url(images/images/side-arrow.png) no-repeat left center;
+  transition: all 0.4;
+}
+.main-services ul li:hover {
+  margin-left: 33px;
+}
+.main-services ul li:hover a {
+  background: url(images/images/side-arrow-white.png) no-repeat left 10px center
+    #00a4e2;
+  color: #fff;
+  margin: 0;
+}
+.service-info h2 {
+  font-size: 55px;
+  font-weight: lighter;
+  color: #00a4e2;
+  margin: 0;
+}
+.service-info h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  color: #333333;
+  margin: 0;
+}
+.service-info p {
+  font-size: 12px;
+  text-align: justify;
+  color: #666666;
+  line-height: 30px;
+}
+.service-info {
+  background-color: #f1f1f1;
+}
+.Support {
+  background-color: #f1f1f1;
+}
+.Support h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 48px;
+}
+.Support input {
+  height: 40px;
+}
+.Support input,
+.Support textarea {
+  outline: none;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 14px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.Support input::placeholder,
+.Support textarea::placeholder {
+  color: #bcbcbc;
+}
+.Support textarea {
+  height: 105px;
+}
+.Support button {
+  background-color: #00a4e2;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.contact span,
+.contact p {
+  display: inline-block;
+  font-size: 16px;
+  color: #333333;
+}
+.contact span {
+  font-weight: bolder;
+}
+.contact-row2 {
+  padding-top: 39px;
+  padding-bottom: 59px;
+}
+.accordion-button::after {
+  background: url(images/images/side-arrow.png) no-repeat center left;
+  position: absolute;
+  left: 10px;
+}
+.accordion-button {
+  padding-left: 34px;
+}
+.accordion-button:not(.collapsed)::after {
+  background: url(images/images/side-arrow-white.png) no-repeat center left;
+  transform: rotate(90deg);
+}
